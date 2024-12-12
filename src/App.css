@@ -1,0 +1,21 @@
+body {
+  min-height: 200vh;
+  width: 100vw;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+section {
+  height: 540px;
+  background-color: rgba(0, 255, 255, 0.5);
+  padding: 1rem;
+}
+
+section:first-child {
+  background-color: rgba(255, 0, 0, 0.5);
+}
