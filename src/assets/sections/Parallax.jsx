@@ -3,11 +3,11 @@ import ScrollEffect from "../lib/Scrolling";
 function Parallax() {
   return (
     <ScrollEffect
-    as="section"
+      as="section"
       startScroll={200}
-      endScroll={600}
+      endScroll={400}
       effects={{
-        translate: { x: 500 },
+        translate: { x: 2000 },
       }}
     >
       Parallax Container Scroll
